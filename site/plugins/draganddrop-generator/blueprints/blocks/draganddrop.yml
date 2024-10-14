@@ -1,0 +1,37 @@
+name: Draganddrop
+icon: image
+tabs:
+  main:
+    label: Drag and Drop
+    fields:
+      Image:
+        label: Drag and Drop Image
+        type: files
+        required: true
+        uploads: poster
+        multiple: false
+      Id:
+        label: ID
+        required: true
+        type: text
+      Coords:
+        label: Coords
+        required: true
+        type: textarea 
+        buttons: false
+      Labels:
+        label: Upload/select the label images to be used (names should match the id of the exported coordinates in the field above, ex. cat.png, pet.jpeg)
+        type: blocks
+        max: 1
+        required: true
+        fieldsets:
+          - gallery
+      CorrectScore: 
+        label: Correct Score
+        required: true
+        type: number    
+      WrongScore: 
+        label: Wrong Score
+        required: true
+        type: number 
+      

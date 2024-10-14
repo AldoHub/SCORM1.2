@@ -1,0 +1,39 @@
+form > p {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.container {
+  padding: 1em;
+  background:#fff;
+ 
+}
+
+
+.form-field {
+  margin-bottom: 0.5em;
+}
+
+.form-field label {
+  display:block;
+  margin-bottom: 0.2em;
+  font-weight: 600;
+}
+
+
+input {
+  padding: 0.2em;
+  display:block;
+  padding: 0.4em;
+}
+
+.text{
+  margin-bottom: 1em;
+}
+
+.button {
+  margin-top: 1em;
+  padding: 0.7em;
+  background: #6cd887;
+  color: white;
+}

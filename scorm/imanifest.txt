@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="no" ?>
+
+<manifest identifier="#courseID" version="1"
+          xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
+          xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3"
+          xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3"
+          xmlns:imsss="http://www.imsglobal.org/xsd/imsss"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+                              http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
+                              http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
+                              http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
+                              http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd">
+	
+  <metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+	</metadata>
+  <organizations default="#organization">
+		<organization identifier="#organization" adlseq:objectivesGlobalToSystem="false">
+			<title>#title</title>
+			<item identifier="#itemID" identifierref="#resourceID">
+				<title>#title</title>
+        <!-- Include some basic sequencing information that overrides the defaults-->
+        <imsss:sequencing>
+          <imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true"/>
+        </imsss:sequencing>
+			</item>
+      <imsss:sequencing>
+        <imsss:controlMode choice="true" flow="true"/>
+      </imsss:sequencing>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="#resourceID" type="webcontent" adlcp:scormType="sco" href="shared/launchpage.html">
+      <file href="quiz/index.html"/>
+      <file href="shared/contentfunctions.js"/>
+      <file href="shared/launchpage.html"/>
+      <file href="shared/scormfunctions.js"/>
+      <file href="shared/style.css"/>
+		</resource>
+	</resources>
+</manifest>

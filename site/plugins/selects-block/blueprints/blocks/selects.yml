@@ -1,0 +1,25 @@
+name: Selects
+icon: file-audio
+tabs:
+  main:
+    label: Main
+    fields:
+      question:
+        label: Question
+        type: text 
+      answers:
+        label: Answer Options
+        type: blocks
+        fieldsets:
+         - repeater
+      correctAnswerValue:
+        label: Correct Answer
+        type: text
+      correctAnswerScore:
+        label: Correct Answer Score Value
+        type: number
+      wrongAnswerScore:
+        label: Wrong Answers Score Value
+        type: number
+        default: 0
+ 

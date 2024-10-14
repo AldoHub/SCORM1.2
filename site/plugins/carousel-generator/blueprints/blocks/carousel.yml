@@ -1,0 +1,11 @@
+name: carousel
+icon: image
+tabs:
+  main:
+    label: Carousel
+    fields:
+     carousel: 
+        type: blocks
+        max: 1
+        fieldsets:    
+         - gallery

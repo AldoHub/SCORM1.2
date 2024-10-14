@@ -1,0 +1,20 @@
+{
+    "name": "nblabs/scorm-generator",
+    "description": "Create SCORM Package",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Pravda",
+            "email": "roman.olegovich.pravda@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-dom": "*",
+        "ext-xmlwriter": "*",
+        "ext-zip": "*",
+        "romanpravda/php-scorm-packager": "^1.3"
+    }
+   
+}

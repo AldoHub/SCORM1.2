@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "dev": "parcel watch js/index.js -d ./",
+    "build": "parcel build js/index.js --experimental-scope-hoisting -d ./"
+  },
+  "posthtml": {
+    "recognizeSelfClosing": true
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "jszip": "^3.6.0",
+    "node-sass": "^6.0.0",
+    "parcel": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.12.5",
+    "vue": "^2.6.14",
+    "vue-hot-reload-api": "^2.3.4",
+    "zip-a-folder": "^1.0.1",
+    "zip-dir": "^2.0.0",
+    "zip-folder": "^1.0.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-vue": "^2.0.0-beta.2",
+    "@vue/component-compiler-utils": "^3.2.2",
+    "vue-template-compiler": "^2.6.14"
+  }
+}

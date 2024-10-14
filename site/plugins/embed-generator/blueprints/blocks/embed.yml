@@ -1,0 +1,9 @@
+name: embed
+icon: file-video
+tabs:
+  main:
+    label: Embed
+    fields:
+     embed: 
+        type: text
+        

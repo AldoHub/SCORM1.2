@@ -1,0 +1,15 @@
+{
+    "name": "nblabs/dragndrop",
+    "description": "NBLabs custom plugin that creates, processes and downloads a zip using the static folder contents",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aldocaava",
+            "email": "aldocaava@nytrobit.io"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}

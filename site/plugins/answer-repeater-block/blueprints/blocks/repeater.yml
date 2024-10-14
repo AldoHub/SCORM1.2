@@ -1,0 +1,10 @@
+name: Repeater
+icon: file-audio
+tabs:
+  main:
+    label: Answer
+    fields:
+      Answer:
+        label: Answer
+        type: text 
+ 

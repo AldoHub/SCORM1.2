@@ -1,0 +1,30 @@
+name: Radios
+icon: circle-filled
+tabs:
+  main:
+    label: Main
+    fields:
+      question:
+        label: Question
+        required: true
+        type: text 
+      answers:
+        label: Answers
+        required: true
+        type: blocks
+        fieldsets:
+         - repeater
+      correctAnswerValue:
+        label: Correct Answer (type the value the same way as written in the answers block)
+        required: true
+        type: text
+      correctAnswerScore:
+        label: Correct Answer Score Value
+        required: true
+        type: number
+      wrongAnswerScore:
+        label: Wrong Answers Score Value
+        type: number
+        required: true
+        default: 0
+ 

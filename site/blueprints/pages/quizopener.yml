@@ -1,0 +1,22 @@
+options:
+  delete: false
+fields:
+  test:
+  back: 
+    label: Page Background
+    max: 1
+    type: files
+  logo: 
+    label: Logo
+    max: 1
+    type: files  
+  dragndrop:
+  parts:
+    type: blocks
+    fieldsets:
+      - sections
+  
+   
+
+
+  

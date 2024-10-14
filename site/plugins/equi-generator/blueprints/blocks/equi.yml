@@ -1,0 +1,48 @@
+name: Equi
+icon: image
+tabs:
+  main:
+    label: Equi
+    fields:
+      Label:
+        label: Equirectangular Label
+        type: text
+        required: true
+      Image:
+        label: Equirectangular Image
+        required: true
+        type: files
+        uploads: poster
+        multiple: false
+      Id:
+        label: ID
+        required: true
+        type: text
+      Answers:
+        label: Answers (comma separated values, ex. cat,pet,etc)
+        required: true
+        type: text
+      CorrectScore: 
+        label: Correct Score
+        required: true
+        type: number    
+      WrongScore: 
+        label: Wrong Score
+        required: true
+        type: number
+        default: 0 
+      Masks:
+        label: Upload/select the masks (the names of the images should match the value, ex. cat.png, pet.jpeg)
+        type: blocks
+        required: true
+        max: 1
+        fieldsets:    
+         - gallery
+      Reveals:
+        label: Upload/select the masks (the names of the images should match the value, ex. cat.png, pet.jpeg)
+        type: blocks
+        required: true
+        max: 1
+        fieldsets:    
+         - gallery   
+       

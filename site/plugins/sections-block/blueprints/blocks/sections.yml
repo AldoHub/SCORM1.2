@@ -1,0 +1,34 @@
+name: Sections
+icon: document
+tabs:
+  main:
+    label: Main
+    fields:
+      contentOnly:
+        label: Check this box if the content does not have any question on it
+        type: checkboxes
+        options:
+          contentOnly: read only content
+      Hide:
+        label: Hide this section (will not be displayed on the quiz frontend)
+        type: checkboxes
+        options: 
+          hide: Hide section
+      data:
+        label: Add blocks of content (used for displaying info, videos, etc)
+        type: blocks
+        fieldsets:    
+         - heading
+         - carousel
+         - embed
+         - cwriter
+      question:
+        label: Add a block of questions for this section (if 'contentOnly' or 'hide section' is marked this question will be ignored)
+        type: blocks
+        max: 1
+        fieldsets:
+          - radios
+          - checks
+          - equi
+          - draganddrop
+          

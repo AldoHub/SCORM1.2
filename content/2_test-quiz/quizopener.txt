@@ -1,0 +1,13 @@
+Title: Test Quiz
+
+----
+
+Back: - washyourhands.jpg
+
+----
+
+Logo: - faq-1.png
+
+----
+
+Parts: [{"content":{"contentonly":"","hide":"","data":"","question":"[{\"content\":{\"question\":\"test question\",\"answers\":\"[{\\\"content\\\":{\\\"answer\\\":\\\"a\\\"},\\\"id\\\":\\\"f9106b26-61d6-42aa-aed5-bb712d9c0931\\\",\\\"isHidden\\\":false,\\\"type\\\":\\\"repeater\\\"},{\\\"content\\\":{\\\"answer\\\":\\\"b\\\"},\\\"id\\\":\\\"519d378f-d8ff-4108-ae24-1b1e9856d0b8\\\",\\\"isHidden\\\":false,\\\"type\\\":\\\"repeater\\\"},{\\\"content\\\":{\\\"answer\\\":\\\"c\\\"},\\\"id\\\":\\\"7da0c0d0-d594-4467-976b-1dac64593ba6\\\",\\\"isHidden\\\":false,\\\"type\\\":\\\"repeater\\\"}]\",\"correctanswervalue\":\"c\",\"correctanswerscore\":20,\"wronganswerscore\":0},\"id\":\"fa2cbd2b-b541-4a36-a7db-b6b50094457f\",\"isHidden\":false,\"type\":\"radios\"}]"},"id":"38422121-2523-4e96-be69-4c0cf25dd289","isHidden":false,"type":"sections"},{"content":{"contentonly":"","hide":"","data":"","question":"[{\"content\":{\"question\":\"test question\",\"answers\":\"[{\\\"content\\\":{\\\"answer\\\":\\\"a\\\"},\\\"id\\\":\\\"f9106b26-61d6-42aa-aed5-bb712d9c0931\\\",\\\"isHidden\\\":false,\\\"type\\\":\\\"repeater\\\"},{\\\"content\\\":{\\\"answer\\\":\\\"b\\\"},\\\"id\\\":\\\"519d378f-d8ff-4108-ae24-1b1e9856d0b8\\\",\\\"isHidden\\\":false,\\\"type\\\":\\\"repeater\\\"},{\\\"content\\\":{\\\"answer\\\":\\\"c\\\"},\\\"id\\\":\\\"7da0c0d0-d594-4467-976b-1dac64593ba6\\\",\\\"isHidden\\\":false,\\\"type\\\":\\\"repeater\\\"}]\",\"correctanswervalue\":\"c\",\"correctanswerscore\":20,\"wronganswerscore\":0},\"id\":\"fa2cbd2b-b541-4a36-a7db-b6b50094457f\",\"isHidden\":false,\"type\":\"radios\"}]"},"id":"49c1a5ee-6ce7-47c1-aae6-f429e78d80b5","isHidden":false,"type":"sections"}]

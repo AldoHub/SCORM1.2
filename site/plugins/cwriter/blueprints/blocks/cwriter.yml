@@ -1,0 +1,9 @@
+name: cwriter
+icon: text
+tabs:
+  main:
+    fields:
+      writer:
+        label: Writer
+        type: writer
+          
